@@ -1,0 +1,610 @@
+/*  Clases para el body, colocando general el mismo tipo de letra y margen 0 */
+.contenedorCuerpo {
+  font-family: "Be Vietnam Pro", sans-serif;
+  margin: 0;
+}
+
+/* Clases para el header  */
+.contenedorHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+
+.logoHeader {
+  width: 10.106944444444444vw;
+  margin-left: 11.458333333333332vw;
+}
+
+#navegadorSuperior {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #242e52;
+  text-decoration: none;
+  margin-right: 1.945065784903511vw;
+}
+
+.botonGetStarted {
+  background: #f3603b;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  width: 9.305555555555555vw;
+  padding: 12.5px 0;
+  border-style: none;
+  color: white;
+  margin-right: 11.458333333333332vw;
+}
+
+/* Quitando las barras de hamburguesa para que no se vea en desktop */
+.hamburger{
+  display: none;
+}
+
+.botonGetStarted:hover {
+  opacity: 0.5;
+  cursor:pointer;
+}
+
+/* Clases para la seccion de la infografia */
+.contenedorInfografia {
+  display: flex;
+  align-items: center;
+  margin-left: 11.458333333333332vw;
+  margin-right: 10.13888888888889vw;
+  margin-top: 3vh;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.4722222222222223vw;
+  color: #232c50;
+}
+
+.subContenedorInfografiaTexto {
+  margin-right: 7.638888888888889vw;
+  font-style: normal;
+  font-weight: 500;
+  color: #000000;
+}
+
+.Grafico {
+  width: 40.27777777777778vw;
+}
+
+/* Clases para la seccion de las caracteristas  */
+.contenedorLista {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 11.458333333333332vw;
+  margin-right: 11.38888888888889vw;
+  margin-top: 12.9vh;
+}
+
+.subContenedorLista {
+  margin-right: 8.680555555555555vw;
+}
+
+.tituloLista {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4vw;
+  color: #232851;
+}
+
+.textoLista {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  color: #000000;
+  margin-right: 6.666666666666667vw;
+}
+
+.caracteristicas {
+  margin: 0;
+  padding: 0;
+}
+
+.elementoCaracteristica {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.tituloCaracteristica {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.1vw;
+  color: #323851;
+  margin-top: 12.5px;
+}
+
+.textoCaracteristica {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1vw;
+  color: #b3b2b7;
+  line-height: 30px;
+}
+
+.contenedorCaracteristica {
+  margin-right: 1.6666666666666667vw;
+  width: 30.34722222222222vw;
+}
+
+.ennumeradorCaracteristica {
+  background: #f3603b;
+  border-radius: 50px;
+  width: 4.791666666666667vw;
+  padding: 12.5px 0;
+  margin-right: 1.597222222222222vw;
+  border-style: none;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1vw;
+}
+
+/* Clases para la seccion de opiniones */
+.opinion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloOpinion {
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4vw;
+  color: #242e53;
+}
+
+.contenedorOpiniones{
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedorOpinion {
+  width: 29.583vw;
+}
+
+.cuerpoOpinion{
+  background: #FAFAFA;
+  margin-top: 4vh;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+.fotoPersona {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  margin-left: 13.020833333333334vw;
+}
+
+.tituloNombre {
+  margin-left: 13.103472222222223vw;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1vw;
+  font-weight: bold;
+  color: #3f4868;
+}
+
+.textoOpinion {
+  padding: 0 1.4583333333333333vw;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1vw;
+  color: #B9B9C1;
+  text-align: center;
+}
+
+/* Quitando los puntos para que no se vea en desktop */
+.puntos{
+  display: none;
+}
+
+.botonGetStartedCenter{
+  margin-right: 0 ;
+  margin-top: 4vh;
+}
+
+/* Clases para todo el footer */
+.contenedorPrincipalFooter{
+margin-top: 15vh;
+}
+.subContenedorFooterNaranja{
+display: flex;
+flex-direction: row;
+align-items: center;
+background-color: #F3613C;
+height: 25vh;
+}
+.subContenedorFooterNegro{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1E1E26;
+  padding: 5vh 0;
+}
+
+.tituloFooter{
+color: #FFFFFF;
+font-style: normal;
+font-weight: 700;
+font-size: 2.4VW;
+margin-left: 11.458vw;
+width: 30.417vw;
+}
+
+.botonGetStartedInverse{
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  width: 9.306vw;
+  padding: 12.5px 0;
+  border-style: none;
+  color:#f3603b;
+  margin-left: 37.361vw;
+}
+
+.logoFooter{
+fill: white !important;
+}
+
+.footerRedesDesktop{
+  margin-top: 5vh;
+  color:white
+}
+
+/* Quitando los iconos grandes  para que no se vea en desktop */
+.footerRedesMobile{
+  display:none;
+}
+
+.icon-redes{
+  margin-right: 0.926vw;
+  width: 1.389vw;
+}
+
+.SubfooterPart2{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1vw;
+  line-height: 23px;
+  color:white;
+  display: flex;
+  flex-direction: row;
+}
+
+.SubfooterPart2 li{
+  margin-bottom: 1vh;
+}
+
+.listaFooter2{
+  margin-left: 15.278vw;
+
+}
+
+.inputText{
+  padding: 12.5px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 9px;
+}
+
+.botonGo{
+  background: #f3603b;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  width: 4.375vw;
+  padding: 12.5px 0;
+  border-style: none;
+  color: white;
+}
+
+.copyrightDesktop{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85vw;
+  line-height: 18px;
+  color: #8C8C94;
+  margin-top: 6vh;
+  margin-left: 4vw;
+}
+
+/* Quitando el copyright de esta posición para que no se vea en desktop */
+.copyrightMobile{
+  display: none;
+}
+
+/* Comenzando todas la clases para mobile */
+@media only screen and (max-width: 426px) {
+
+  /* clases para el header, algunas cosas que quitan ya que no son necesarias en mobile */
+  #navegadorSuperior{
+    display: none;
+  }
+
+  #botonMenu{
+    display: none;
+  }
+
+  .logoHeader {
+    width: 45vw;
+    margin-left: 11.458333333333332vw;
+  }
+
+  /* El icon de hamburger se muestra */
+  .hamburger{
+    display: flex;
+    color: #232851;
+    margin-right: 11.458333333333332vw;
+  }
+  .contenedorHeader{
+    height: 15vh;
+  }
+
+  /* Se cambia la dirección de la seccion de la infografia */
+  .contenedorInfografia{
+    flex-direction: column;
+  }
+
+  .Grafico{
+    order: 0;
+    width: 90vw;
+    margin:0;
+  }
+
+  .subContenedorInfografiaTexto{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin-right: 0;
+    align-items: center;
+  }
+
+  /* Clases para la sección de caracteristicas */
+  h1{
+    text-align: center;
+    font-size: 8vw;
+    margin-top: 0
+  }
+
+  .subContenedorInfografiaTexto p {
+    color: #b3b2b7;
+    text-align: center;
+  }
+
+  .botonGetStarted{
+    width: 30vw;
+    margin-right: 0;
+  }
+
+  .contenedorLista{
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  .subContenedorLista{
+    margin-right: 14vw;
+    margin-left: 14vw;
+  }
+
+  .tituloLista{
+    font-size: 8vw;
+    text-align: center;
+  }
+
+  .textoLista{
+    margin-right: 0;
+    color: #b3b2b7;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 3vh;
+  }
+
+  .caracteristicas{
+    margin-top: 4vh;
+  }
+
+  .contenedorCaracteristica {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .ennumeradorCaracteristica{
+    width: 12vw;
+    margin-right: 0;
+    font-size: 3vw;
+    padding: 8px 0;
+  }
+
+  .tituloCaracteristica{
+    margin-top:0;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-left: 4vw;
+    padding-bottom: 3px;
+    margin-bottom : 2vh;
+    font-size: 4vw;
+    background-color: #f3d4cc ;
+  }
+
+  .textoCaracteristica{
+    font-size: 3vw;
+    line-height: 3vh;
+  }
+
+  /* Clases para la seccion de comentarios */
+  .tituloOpinion{
+    font-size: 8vw;
+  }
+
+  .contenedorOpiniones{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Algunos cards de los comentarios se colocan invisibles */
+  .contenedorOpiniones div:nth-child(odd)   {
+    display: none;
+  }
+
+  .contenedorOpinion{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+  }
+
+  .cuerpoOpinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vh;
+    padding-top: 6vh;
+  }
+
+  .tituloNombre{
+    margin-left: 0;
+    font-size: 3vw;
+  }
+
+  .textoOpinion{
+    line-height: 3vh;
+    font-size: 3vw;
+  }
+
+  .fotoPersona{
+    margin:0;
+  }
+
+  /* Se muestran los puntos que muestran el card actual */
+  .puntos{
+    display: inline;
+    color:#f3603b;
+  }
+
+  /* Clases para el footer */
+  .subContenedorFooterNaranja{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .tituloFooter{
+    margin-left : 0; 
+    margin-top: 5vh;
+    font-size: 8vw;
+    width: 70.417vw;
+    text-align: center;
+  }
+
+  .botonGetStartedInverse{
+    margin-left: 0;
+    margin-bottom: 8vh;
+    width: 30vw;
+  }
+
+  .subContenedorFooterNegro{
+    flex-direction: column;
+  }
+
+  .SubfooterPart1{
+    display: flex;
+    flex-direction: column;
+    order: 3;
+    align-items: center;
+  }
+
+  .logoFooter{
+    order:2;
+    margin-top: 5vh;
+    width: 50vw;
+    margin-top: 10vh;
+  }
+
+  .footerRedesDesktop{
+    display: none;
+  }
+
+  /* Se muestran los icons grande para el footer mobile */
+  .footerRedesMobile{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    width: 75vw;
+    justify-content: space-between;
+    order:1;
+  }
+
+  .icon-redes{
+    margin-right: 0;
+  }
+
+  .SubfooterPart2{
+    width: 80vw;
+    order: 2;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .listaFooter{
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+  }
+
+  .listaFooter2{
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+  }
+
+  .SubfooterPart3{
+    order: 1;
+  }
+
+  .inputText{
+    width: 60vw;
+  }
+
+  .botonGo{
+    width: 20vw;
+  }
+
+  .copyrightDesktop{
+    display: none;
+  }
+
+  /* Se muestra el parrafo de copyright para footer mobile */
+  .copyrightMobile{
+    order : 4;
+    margin-top: 10vh;
+    color: #8C8C94;
+    display: inline-block;
+  }
+
+}
